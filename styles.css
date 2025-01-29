@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0A0A0A ;
+  color: white;
+  font-family: "Jost", serif;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: #353535;
+  padding: 0.75rem 2rem;
+  margin: 2rem auto;
+  width: 20rem;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.first-header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.second-header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: -30px;
+}
+
+.third-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: -30px;
+}
+
+.fourth-header {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: -30px;
+}
+
+.dot {
+  height: 17px;
+  width: 17px;
+  background-color: #00FF04;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.connect-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #121212;
+  width: 11.5rem;
+  height: 3rem;
+  border-radius: 74px;
+  border: solid 1px #494949;
+}
+
+.code {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.html {
+  color: #66B8FF;
+}
+
+.css {
+  color: #FF70E7;
+}
+
+.js {
+  color: #FBFF86;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.span-1 {
+  color: #66B8FF;
+}
+
+.span-2 {
+  color: #FF70E7;
+}
+
+.span-3 {
+  color: #FBFF86;
+}
+
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #121212;
+  border-radius: 5px;
+}
+
