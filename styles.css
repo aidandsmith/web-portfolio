@@ -32,7 +32,7 @@ a {
 
 h1 {
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .first-header {
@@ -40,7 +40,7 @@ h1 {
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 15rem;
 }
 
 .second-header {
@@ -110,7 +110,7 @@ h1 {
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 20rem;
 }
 
 h4 {
@@ -128,6 +128,29 @@ h4 {
 
 .span-3 {
   color: #FBFF86;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-30px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-15px);
+  }
 }
 
 .tech-stack {
@@ -214,3 +237,60 @@ h4 {
   line-height: 1.5;
   max-width: 600px;
 }
+
+.projects h1 {
+  font-size: 2rem;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+.projects p {
+  color: #888888;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.projects-collection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  border: solid 1px #343434;
+  border-radius: 10px;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 30rem;
+}
+
+article h3 {
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.button-wrapper:nth-of-type(2) {
+  flex-basis: 100px;
+}
+
+.button-wrapper p {
+  margin: 0;
+  padding-right: 1rem;
+}
+
+.card-btn {
+  display: flex;
+  padding: 1.25rem 1.25rem;
+  border-radius: 8px;
+  background-color: #343434;
+}
+
