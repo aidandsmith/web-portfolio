@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #0A0A0A ;
+  background-color: #0c0c0c;
   color: white;
   font-family: "Jost", serif;
   max-width: 60rem;
@@ -16,22 +16,23 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 3rem;
   background-color: #353535;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 1.25rem;
   margin: 2rem auto;
-  width: 20rem;
+  width: 17rem;
   border-radius: 5px;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 1rem;
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .first-header {
@@ -39,7 +40,7 @@ h1 {
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  margin-top: 20rem;
+  margin-top: 6rem;
 }
 
 .second-header {
@@ -109,10 +110,11 @@ h1 {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 10rem;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -132,7 +134,9 @@ h4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
 }
 
 .tech-card {
@@ -141,5 +145,72 @@ h4 {
   align-items: center;
   background-color: #121212;
   border-radius: 5px;
+  border: solid 1px #343434;
+  gap: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
+.tech-description h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.tech-description p {
+  margin: 0;
+  font-size: 0.85rem !important;
+  color: #888888;
+}
+
+.tech-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.purple {
+  background-color: #9000FF20;
+}
+
+.yellow {
+  background-color: #F0DB4F20;
+}
+
+.orange {
+  background-color: #E44D2620;
+}
+
+.blue {
+  background-color: #5C6BC020;
+}
+
+.teal {
+  background-color: #61DAFB20;
+}
+
+.navy {
+  background-color: #32679020;
+}
+
+.green {
+  background-color: #539E4320;
+}
+
+.grey {
+  background-color: #FFFFFF20;
+}
+
+.technology-grid h1 {
+  font-size: 2rem;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+.technology-grid p {
+  color: #888888;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+}
