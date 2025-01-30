@@ -159,6 +159,9 @@ h4 {
   grid-template-rows: repeat(2, 1fr);
   gap: 1.5rem;
   margin-top: 2rem;
+}
+
+.tech-stack {
   margin-bottom: 10rem;
 }
 
@@ -238,6 +241,10 @@ h4 {
   max-width: 600px;
 }
 
+.projects {
+  margin-bottom: 10rem;
+}
+
 .projects h1 {
   font-size: 2rem;
   text-transform: none;
@@ -257,17 +264,17 @@ h4 {
   gap: 1.5rem;
 }
 
-article {
+.project-post {
   display: flex;
   flex-direction: column;
   background-color: #121212;
   border: solid 1px #343434;
   border-radius: 10px;
   padding: 1rem 1rem 1rem 1rem;
-  width: 30rem;
+  width: 29.25rem;
 }
 
-article h3 {
+.project-post h3 {
   margin: 0;
   margin-top: 1rem;
 }
@@ -291,6 +298,30 @@ article h3 {
   display: flex;
   padding: 1.25rem 1.25rem;
   border-radius: 8px;
-  background-color: #343434;
+  background-color: #ffffff;
 }
 
+.card-btn i {
+  color: black;
+}
+
+.blog h1 {
+  font-size: 2rem;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+.blog p {
+  color: #888888;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.blog-post {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #ffffff50;
+  padding: 1rem 1rem;
+}
