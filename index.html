@@ -4,57 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aidan's Portfolio</title>
-  <script src="https://cdn.jsdelivr.net/npm/simple-icons@14.4.0/index.min.js"></script>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
-  
 </head>
 <body>
-  <main>
     <header>
       <nav>
-        <a href="">Home</a>
-        <a href="">Projects</a>
-        <a href="">Blog</a>
-      </nav>
-      <div class="first-header">
-        <h1>My name is Aidan</h1>
-        <img src="images/wave.svg" alt="hand waving in the diretion of the user">
+      <h3>ASMITH</h3>
+      <div class="nav-items">
+        <a href="">home</a>
+        <a href="">about me</a>
+        <a href="">projects</a>
       </div>
-      <div class="second-header">
-        <div class="avatar">
-          <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="ellipse-image">
-            <circle class="fillme"></circle>
-          </svg>
-          <img src="images/avatar.svg" alt="" class="avatar-img">
-          <img class="glasses" src="images/glasses.png" alt="">
-        </div>
-        <h1>I am a web developer</h1>
-      </div>
-      <div class="third-header">
-        <h1>Based in canada</h1>
-        <div class="connect-modal">
-          <span class="dot"></span>
-          <h3>Lets Connect</h3>
+    </nav>
+    <div class="hero-section">
+      <img class="profile" height="235" width="220" src="images/IMG_1386.jpg" alt="">
+      <img src="" alt="">
+      <div class="hero-text">
+        <h1>hi, my name is aidan</h1>
+        <h2 class="hero-h2">I am a web developer, based in Canada.</h2>
+        <h3 class="hero-h3">I enjoy creating web projects, playing video games, and constantly learning about new technologies!</h3>
+        <div class="button-wrapper">
+          <a class="cta-buttons" href=""><i class="fa-solid fa-file-arrow-down"></i>Resume</a>
+          <a class="cta-buttons" href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+          <a class="cta-buttons" href=""><i class="fa-solid fa-code-branch"></i>GitHub</a>
         </div>
       </div>
-      <div class="fourth-header">
-        <div class="code">
-          <img height="40" width="40" src="https://cdn.simpleicons.org/html5/66B8FF" alt="">
-          <h1 class="html">HTML</h1>
-        </div>
-        <div class="code">
-          <img height="40" width="40" src="https://cdn.simpleicons.org/css/FF70E7" alt="">
-          <h1 class="css">CSS</h1>
-        </div>
-        <div class="code">
-          <img height="40" width="40" src="https://cdn.simpleicons.org/javascript/FBFF86" alt="">
-          <h1 class="js">JS</h1>
-        </div>
-      </div>
-      <div class="description">
-        <h4>I create web projects that are excels your business to
-          <span class="span-1">scale</span>, <span class="span-2">increase profits</span> and <span class="span-3">improve productivity.</span></h4>
       </div>
     </header>
     <section class="technology-grid">
@@ -126,7 +101,7 @@
         </div>
         <div class="tech-card">
           <div class="tech-background grey">
-            <img height="35" width="35" src="https://cdn.simpleicons.org/figma/FFFFFF" alt="">
+          <img height="35" width="35" src="https://cdn.simpleicons.org/figma/121212" alt="">
           </div>
           <div class="tech-description">
             <h4>Figma</h4>
@@ -137,82 +112,36 @@
     </section>
     <section class="projects">
       <h1>Projects</h1>
-      <p>Over the past two years I have worked on the following projects to further my skills and refine the art of web development.</p>
+    <p class="p-p">Over the past two years I have worked on the following projects to further my skills and refine the art of web development.</p>
       <div class="projects-collection">
         <article class="project-post">
+        <a href="">
           <img src="images/placeholder.svg" alt="">
           <h3>Solvex Digital</h3>
           <div class="button-wrapper">
             <p>Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            <div class="card-btn"><a href=""><i class="fa-solid fa-arrow-up fa-2xl fa-rotate-by" style= "--fa-rotate-angle: 45deg;"></i></a></div>
           </div>
+        </a>
         </article>
         <article class="project-post">
+        <a href="">
           <img src="images/placeholder.svg" alt="">
           <h3>Solvex Digital</h3>
           <div class="button-wrapper">
             <p>Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            <div class="card-btn"><a href=""><i class="fa-solid fa-arrow-up fa-2xl fa-rotate-by" style= "--fa-rotate-angle: 45deg;"></i></a></div>
           </div>
+        </a>
         </article>
         <article class="project-post">
+        <a href="">
           <img src="images/placeholder.svg" alt="">
           <h3>Solvex Digital</h3>
           <div class="button-wrapper">
             <p>Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            <div class="card-btn"><a href=""><i class="fa-solid fa-arrow-up fa-2xl fa-rotate-by" style= "--fa-rotate-angle: 45deg;"></i></a></div>
           </div>
-        </article>
-      </div>
-    </section>
-    <section class="blog">
-      <h1>Blog</h1>
-      <p>This is a way I like to keep track of all my projects, current skills im trying to learn, and teaching new ways of doing things!</p>
-      <article class="blog-post">
-        <img src="images/blog-placeholder.svg" alt="">
-        <div class="blog-preview">
-          <h3>A quick introduction of me</h3>
-          <p>Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-        </div>
-      </article>
-      <article class="blog-post">
-        <img src="images/blog-placeholder.svg" alt="">
-        <div class="blog-preview">
-          <h3>A quick introduction of me</h3>
-          <p>Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-        </div>
-      </article>
-      <article class="blog-post">
-        <img src="images/blog-placeholder.svg" alt="">
-        <div class="blog-preview">
-          <h3>A quick introduction of me</h3>
-          <p>Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-        </div>
+        </a>
       </article>
     </section>
-    <section class="cta">
-      <h1>Want to work with me?</h1>
-      <div class="email-box">
-        <h1 class="email">originalaidan@gmail.com</h1>
-        <img class="email-img" src="images/mail.svg" alt="">
-      </div>
-    </section>
-    <footer>
-      <div class="footer-content">
-        <div class="social-links">
-          <a href="https://linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn Profile">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="mailto:originalaidan@gmail.com" aria-label="Email Me">
-            <i class="fa-regular fa-envelope"></i>
-          </a>
-          <a href="https://instagram.com/your-profile" target="_blank" aria-label="Instagram Profile">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </div>
-        <p class="copyright">© 2024 Aidan. All rights reserved.</p>
-      </div>
-    </footer>
   </main>
 </body>
 </html>
