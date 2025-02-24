@@ -276,6 +276,23 @@ nav {
   margin-top: 1rem;
 }
 
+.project-post a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+  border-radius: 10px; 
+}
+
+.project-post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
 .button-wrapper {
   display: flex;
   margin: 0;
@@ -286,5 +303,88 @@ nav {
 
 .button-wrapper:nth-of-type(2) {
   flex-basis: 100px;
+}
+
+.blog {
+  margin-bottom: 5rem;
+}
+
+.blog h1 {
+  font-size: 2rem;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+.blog p {
+  color: #888888;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.blog-post {
+  padding: 2rem;
+  border: 1px solid #D1D1D1;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background: #FFFEFE;
+  position: relative;
+}
+
+.blog-post h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post p {
+  margin-bottom: 0;
+  padding-right: 2rem;
+}
+
+.read-more {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.read-more:hover {
+  transform: translateY(-50%) translateX(5px);
+  transition: transform 0.2s ease;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-top: 1px solid #D1D1D1;
+  margin-top: 2rem;
+}
+
+footer p {
+  color: #888888;
+  font-size: 0.875rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  color: #888888;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.social-links a:hover {
+  color: #000000;
+  transition: color 0.2s ease;
 }
 
