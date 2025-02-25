@@ -19,7 +19,14 @@
   .project-links {
     display: flex;
     gap: 1rem;
+    justify-content: center;
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team-member {
+    width: 100% !important;
   }
 }
 
@@ -46,10 +53,6 @@
   height: auto;
   border-radius: 10px;
   border: 1px solid #D1D1D1;
-}
-
-@media screen and (max-width: 768px) {
-  
 }
 
 .project-section {
