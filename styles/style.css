@@ -299,7 +299,7 @@ nav h3 a {
 }
 
 .projects p {
-  color: #000000;
+  color: #888888;
   font-size: 1rem;
   line-height: 1.5;
   max-width: 600px;
@@ -373,15 +373,13 @@ nav h3 a {
   border-radius: 10px 10px 0 0;
 }
 
-.button-wrapper {
+.desc-wrapper {
   display: flex;
-  margin: 0;
-  flex-direction: row;
-  align-items: flex-end;
-  padding: 0;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.button-wrapper:nth-of-type(2) {
+.desc-wrapper:nth-of-type(2) {
   flex-basis: 100px;
 }
 
